@@ -17,6 +17,12 @@
                 <asp:Table runat="server">
                     <asp:TableRow>
                         <asp:TableCell>
+                            <asp:Label runat="server">Id del alumno: </asp:Label>
+                        </asp:TableCell>
+                        <asp:TableCell>
+                            <asp:TextBox runat="server" ID="txtID" ToolTip="Ingrese número de boleta"></asp:TextBox>
+                        </asp:TableCell>
+                        <asp:TableCell>
                             <asp:Label runat="server">Boleta del alumno: </asp:Label>
                         </asp:TableCell>
                         <asp:TableCell>

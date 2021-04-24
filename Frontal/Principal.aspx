@@ -121,6 +121,8 @@
                     </asp:TableRow>
                 </asp:Table>
                 <asp:Button runat="server" ID="btnADD" ToolTip="Agregar alumno" Text="AGREGAR" OnClick="btnADD_Click" />
+                <asp:Button runat="server" ID="BtnRegUno" ToolTip="Consultar alumno" Text="Consultar 2" OnClick="BtnRegUno_Click"/>
+                <asp:Button runat="server" ID="Btn3" ToolTip="Agregar alumno" Text="---" />
             </div>
         </form>
     </section>

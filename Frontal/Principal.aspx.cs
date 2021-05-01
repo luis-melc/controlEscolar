@@ -7,6 +7,8 @@ using System.Web.UI.WebControls;
 using System.Data;
 using System.Xml;
 using System.Xml.Linq;
+using iTextSharp.text;
+using iTextSharp.text.pdf;
 
 
 
@@ -315,6 +317,67 @@ namespace controlEscolar.Frontal
             }
         }
 
-        
+        protected void btnGenrarPDF_Click(object sender, EventArgs e)
+        {
+            DataTable dt = new DataTable();
+            Document document = new Document();
+            PdfWriter writer = PdfWriter.GetInstance(document, HttpContext.Current.Response.OutputStream);
+            dt = cbd.devuelveDatos(-1, 2);
+
+            if(dt.Rows.Count > 0)
+            {
+                document.Open();
+
+                //Fuentes
+                Font fontTitle = FontFactory.GetFont(FontFactory.COURIER_BOLD, 25);
+                Font font9 = FontFactory.GetFont(FontFactory.TIMES, 9);
+
+                //Se agrega una tabla al PDF
+                PdfPTable table = new PdfPTable(dt.Columns.Count);
+                // Agregamos el título
+                document.Add(new Paragraph(20,"Reporte de alumnos",fontTitle));
+                document.Add(new Chunk("\n"));
+
+                float[] widths = new float[dt.Columns.Count];
+                for (int i = 0; i < dt.Columns.Count; i++)
+                {
+                    widths[i] = 4f;
+                }
+
+                table.SetWidths(widths);
+                table.WidthPercentage = 90;
+
+                PdfPCell cell = new PdfPCell(new Phrase("columns"));
+                cell.Colspan = dt.Columns.Count;
+
+                foreach (DataColumn c in dt.Columns)
+                {
+                    table.AddCell(new Phrase(c.ColumnName,font9));
+                }
+
+                foreach (DataRow r in dt.Rows)
+                {
+                    if (dt.Rows.Count > 0)
+                    {
+                        for (int h = 0; h < dt.Columns.Count; h++)
+                        {
+                            table.AddCell(new Phrase(r[h].ToString(),font9));
+                        }
+                    }
+                }
+                document.Add(table);
+            }
+            else
+            {
+                Console.WriteLine("La tabla no tiene rows");
+            }
+
+            document.Close();
+            Response.ContentType = "application/pdf";
+            Response.AddHeader("content-disposition","attachment;filename=alumnos"+".pdf");
+            HttpContext.Current.Response.Write(document);
+            Response.Flush();
+            Response.End();
+        }
     }
 }

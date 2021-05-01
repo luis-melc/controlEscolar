@@ -121,10 +121,20 @@
                     </asp:TableRow>
                 </asp:Table>
                 <asp:Button runat="server" ID="btnADD" ToolTip="Agregar alumno" Text="AGREGAR" OnClick="btnADD_Click" />
-                <asp:Button runat="server" ID="BtnRegUno" ToolTip="Consultar alumno" Text="Consultar 2" OnClick="BtnRegUno_Click"/>
-                <asp:Button runat="server" ID="Btn3" ToolTip="Agregar alumno" Text="---" />
+                <asp:Button runat="server" ID="BtnRegUno" ToolTip="Buscar alumno" Text="BUSCAR" OnClick="BtnRegUno_Click"/>
+                <asp:Button runat="server" ID="BtnList" ToolTip="Listar alumnos" Text="LISTAR ALUMNOS" OnClick="BtnList_Click" />
+                <asp:Button runat="server" ID="BtnDel" ToolTip="Eliminar un alumno" Text="ELIMNAR" OnClick="BtnDel_Click" />
+                <asp:Button runat="server" ID="BtnAct" ToolTip="Actualiza el regisro de un alumno" Text="ACTUALIZAR" OnClick="BtnAct_Click" />
+                <asp:Button runat="server" ID="btnXML" ToolTip="Reporte XML" Text="XML" OnClick="btnXML_Click" />
+                <asp:Button runat="server" ID="btnGenrarPDF" ToolTip="Reporte PDF" Text="PDF" OnClick="btnGenrarPDF_Click" />
             </div>
         </form>
     </section>
+    <div>
+        <p>
+            <% Response.Write(tablaPres); %>
+        </p>
+        <asp:DataGrid runat="server" ID="DatosReja" ></asp:DataGrid>
+    </div>
 </body>
 </html>

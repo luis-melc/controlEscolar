@@ -100,7 +100,7 @@ namespace controlEscolar.Datos
                 SqlDataAdapter datos = new SqlDataAdapter("sp_RegresarDatos",con);
                 datos.SelectCommand.CommandType = CommandType.StoredProcedure;
                 datos.SelectCommand.Parameters.Add("@id_alu", alu_id);
-                datos.SelectCommand.Parameters.Add("@tipOper", alu_id);
+                datos.SelectCommand.Parameters.Add("@tipOper", tipOper);
 
                 datos.Fill(tablaReg);
 
@@ -120,5 +120,39 @@ namespace controlEscolar.Datos
             con.Close();
             return cadReg;
         }
+
+        public DataTable devuelveDatos(Int16 alu_id, Int16 tipOper)
+        {
+            string cadReg = "";
+            DataTable tablaReg = new DataTable();
+            try
+            {
+                con.Open();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error al intentar abrir la base de datos" + ex.ToString());
+            }
+
+            try
+            {
+                SqlDataAdapter datos = new SqlDataAdapter("sp_RegresarDatos", con);
+                datos.SelectCommand.CommandType = CommandType.StoredProcedure;
+                datos.SelectCommand.Parameters.Add("@id_alu", alu_id);
+                datos.SelectCommand.Parameters.Add("@tipOper", tipOper);
+
+                datos.Fill(tablaReg);
+
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error de recuperación de datos -->" + ex.ToString());
+            }
+            con.Close();
+
+            return tablaReg;
+        }
+
     }
 }

@@ -1,0 +1,328 @@
+<Alumnos>
+  <Estudiante>
+    <id_alu>27</id_alu>
+    <bol_alu>2000122542</bol_alu>
+    <nom_alu>MAURICIO</nom_alu>
+    <apa_alu>PEREZ</apa_alu>
+    <ama_alu>VILLEGAZ</ama_alu>
+    <sex_alu>M</sex_alu>
+    <fna_alu>04/04/1999 12:00:00 a. m.</fna_alu>
+    <mail_alu>MAU_VIL@GMAIL.COM</mail_alu>
+    <tel_alu>55325423</tel_alu>
+    <tipo_san_alu>2</tipo_san_alu>
+    <carrera_alu>1</carrera_alu>
+    <prom_alu>9.50</prom_alu>
+    <id_alu>1</id_alu>
+    <bol_alu>2000123456</bol_alu>
+    <nom_alu>JUANITO</nom_alu>
+    <apa_alu>PEREZ</apa_alu>
+    <ama_alu>GOMEZ</ama_alu>
+    <sex_alu>M</sex_alu>
+    <fna_alu>15/02/1990 12:00:00 a. m.</fna_alu>
+    <mail_alu>juanito3@gmail.com</mail_alu>
+    <tel_alu>55565811</tel_alu>
+    <tipo_san_alu>6</tipo_san_alu>
+    <carrera_alu>2</carrera_alu>
+    <prom_alu>9.50</prom_alu>
+    <id_alu>2</id_alu>
+    <bol_alu>2000123457</bol_alu>
+    <nom_alu>JUANITA</nom_alu>
+    <apa_alu>PEREIRA</apa_alu>
+    <ama_alu>GONZALES</ama_alu>
+    <sex_alu>F</sex_alu>
+    <fna_alu>05/05/1989 12:00:00 a. m.</fna_alu>
+    <mail_alu>juanita1@hotmail.com</mail_alu>
+    <tel_alu>55565812</tel_alu>
+    <tipo_san_alu>1</tipo_san_alu>
+    <carrera_alu>4</carrera_alu>
+    <prom_alu>5.00</prom_alu>
+    <id_alu>4</id_alu>
+    <bol_alu>2000123458</bol_alu>
+    <nom_alu>LUPITA</nom_alu>
+    <apa_alu>FERREIRA</apa_alu>
+    <ama_alu>GONZALES</ama_alu>
+    <sex_alu>F</sex_alu>
+    <fna_alu>07/12/2005 12:00:00 a. m.</fna_alu>
+    <mail_alu>lupis18@gmail.com</mail_alu>
+    <tel_alu>55565813</tel_alu>
+    <tipo_san_alu>4</tipo_san_alu>
+    <carrera_alu>3</carrera_alu>
+    <prom_alu>7.40</prom_alu>
+    <id_alu>5</id_alu>
+    <bol_alu>2000251420</bol_alu>
+    <nom_alu>JUAN</nom_alu>
+    <apa_alu>PEREZ</apa_alu>
+    <ama_alu>MIRA</ama_alu>
+    <sex_alu>M</sex_alu>
+    <fna_alu>30/05/1998 12:00:00 a. m.</fna_alu>
+    <mail_alu>jperezm@live.com</mail_alu>
+    <tel_alu>5555443322</tel_alu>
+    <tipo_san_alu>1</tipo_san_alu>
+    <carrera_alu>2</carrera_alu>
+    <prom_alu>8.50</prom_alu>
+    <id_alu>6</id_alu>
+    <bol_alu>2000251421</bol_alu>
+    <nom_alu>JUAN</nom_alu>
+    <apa_alu>HERNANDEZ</apa_alu>
+    <ama_alu>HERNANDEZ</ama_alu>
+    <sex_alu>M</sex_alu>
+    <fna_alu>30/05/1998 12:00:00 a. m.</fna_alu>
+    <mail_alu>jhernandezh@live.com</mail_alu>
+    <tel_alu>5555403020</tel_alu>
+    <tipo_san_alu>1</tipo_san_alu>
+    <carrera_alu>2</carrera_alu>
+    <prom_alu>9.10</prom_alu>
+    <id_alu>7</id_alu>
+    <bol_alu>2000251422</bol_alu>
+    <nom_alu>PEDRO</nom_alu>
+    <apa_alu>PEREZ</apa_alu>
+    <ama_alu>PEREZ</ama_alu>
+    <sex_alu>M</sex_alu>
+    <fna_alu>30/05/1998 12:00:00 a. m.</fna_alu>
+    <mail_alu>pperezp@live.com</mail_alu>
+    <tel_alu>5554493325</tel_alu>
+    <tipo_san_alu>1</tipo_san_alu>
+    <carrera_alu>2</carrera_alu>
+    <prom_alu>5.50</prom_alu>
+    <id_alu>8</id_alu>
+    <bol_alu>2000251423</bol_alu>
+    <nom_alu>MARIA</nom_alu>
+    <apa_alu>PEREZ</apa_alu>
+    <ama_alu>VAZQUEZ</ama_alu>
+    <sex_alu>F</sex_alu>
+    <fna_alu>30/05/1998 12:00:00 a. m.</fna_alu>
+    <mail_alu>mperezv@live.com</mail_alu>
+    <tel_alu>5550203040</tel_alu>
+    <tipo_san_alu>1</tipo_san_alu>
+    <carrera_alu>2</carrera_alu>
+    <prom_alu>3.20</prom_alu>
+    <id_alu>9</id_alu>
+    <bol_alu>2000251424</bol_alu>
+    <nom_alu>ANA</nom_alu>
+    <apa_alu>VAZQUEZ</apa_alu>
+    <ama_alu>MORA</ama_alu>
+    <sex_alu>F</sex_alu>
+    <fna_alu>30/05/1998 12:00:00 a. m.</fna_alu>
+    <mail_alu>avazquezm@live.com</mail_alu>
+    <tel_alu>5555443322</tel_alu>
+    <tipo_san_alu>1</tipo_san_alu>
+    <carrera_alu>2</carrera_alu>
+    <prom_alu>4.50</prom_alu>
+    <id_alu>10</id_alu>
+    <bol_alu>2000251425</bol_alu>
+    <nom_alu>MARCO</nom_alu>
+    <apa_alu>LOPEZ</apa_alu>
+    <ama_alu>PEREZ</ama_alu>
+    <sex_alu>M</sex_alu>
+    <fna_alu>30/05/1998 12:00:00 a. m.</fna_alu>
+    <mail_alu>mlopezp@live.com</mail_alu>
+    <tel_alu>5555493723</tel_alu>
+    <tipo_san_alu>1</tipo_san_alu>
+    <carrera_alu>2</carrera_alu>
+    <prom_alu>7.50</prom_alu>
+    <id_alu>11</id_alu>
+    <bol_alu>2000251426</bol_alu>
+    <nom_alu>MARCOS</nom_alu>
+    <apa_alu>VEGA</apa_alu>
+    <ama_alu>HERNANDEZ</ama_alu>
+    <sex_alu>M</sex_alu>
+    <fna_alu>30/05/1998 12:00:00 a. m.</fna_alu>
+    <mail_alu>mvegah@live.com</mail_alu>
+    <tel_alu>5556473891</tel_alu>
+    <tipo_san_alu>1</tipo_san_alu>
+    <carrera_alu>2</carrera_alu>
+    <prom_alu>9.40</prom_alu>
+    <id_alu>12</id_alu>
+    <bol_alu>2000251427</bol_alu>
+    <nom_alu>PAOLA</nom_alu>
+    <apa_alu>HERNANDEZ</apa_alu>
+    <ama_alu>VELAZQUEZ</ama_alu>
+    <sex_alu>F</sex_alu>
+    <fna_alu>30/05/1998 12:00:00 a. m.</fna_alu>
+    <mail_alu>phernandezv@live.com</mail_alu>
+    <tel_alu>5555918375</tel_alu>
+    <tipo_san_alu>1</tipo_san_alu>
+    <carrera_alu>2</carrera_alu>
+    <prom_alu>8.50</prom_alu>
+    <id_alu>13</id_alu>
+    <bol_alu>2000251428</bol_alu>
+    <nom_alu>ENRIQUE</nom_alu>
+    <apa_alu>PEREZ</apa_alu>
+    <ama_alu>JIMENEZ</ama_alu>
+    <sex_alu>M</sex_alu>
+    <fna_alu>30/05/1998 12:00:00 a. m.</fna_alu>
+    <mail_alu>eperezj@live.com</mail_alu>
+    <tel_alu>5555441565</tel_alu>
+    <tipo_san_alu>1</tipo_san_alu>
+    <carrera_alu>2</carrera_alu>
+    <prom_alu>3.50</prom_alu>
+    <id_alu>14</id_alu>
+    <bol_alu>2000251429</bol_alu>
+    <nom_alu>VICTOR</nom_alu>
+    <apa_alu>SANCHEZ</apa_alu>
+    <ama_alu>JIMENEZ</ama_alu>
+    <sex_alu>M</sex_alu>
+    <fna_alu>30/05/1998 12:00:00 a. m.</fna_alu>
+    <mail_alu>vsanchezj@live.com</mail_alu>
+    <tel_alu>5555164616</tel_alu>
+    <tipo_san_alu>1</tipo_san_alu>
+    <carrera_alu>2</carrera_alu>
+    <prom_alu>7.50</prom_alu>
+    <id_alu>18</id_alu>
+    <bol_alu>2009230224</bol_alu>
+    <nom_alu>JUAN</nom_alu>
+    <apa_alu>FERRAS</apa_alu>
+    <ama_alu>GOMES</ama_alu>
+    <sex_alu>M</sex_alu>
+    <fna_alu>12/09/1995 12:00:00 a. m.</fna_alu>
+    <mail_alu>juani95@hotmail.com</mail_alu>
+    <tel_alu>5524698742</tel_alu>
+    <tipo_san_alu>3</tipo_san_alu>
+    <carrera_alu>4</carrera_alu>
+    <prom_alu>8.50</prom_alu>
+    <id_alu>29</id_alu>
+    <bol_alu>2010151213</bol_alu>
+    <nom_alu>MANOLITO</nom_alu>
+    <apa_alu>LOPEZ</apa_alu>
+    <ama_alu>PESCADOR</ama_alu>
+    <sex_alu>M</sex_alu>
+    <fna_alu>01/12/2001 12:00:00 a. m.</fna_alu>
+    <mail_alu>migelitoelkiller8@gmail.com</mail_alu>
+    <tel_alu>5556158019</tel_alu>
+    <tipo_san_alu>4</tipo_san_alu>
+    <carrera_alu>3</carrera_alu>
+    <prom_alu>9.50</prom_alu>
+    <id_alu>21</id_alu>
+    <bol_alu>2010324535</bol_alu>
+    <nom_alu>Rafael</nom_alu>
+    <apa_alu>Perez</apa_alu>
+    <ama_alu>Quintana</ama_alu>
+    <sex_alu>M</sex_alu>
+    <fna_alu>01/10/1996 12:00:00 a. m.</fna_alu>
+    <mail_alu>Rafa@gmail.com</mail_alu>
+    <tel_alu>554634643</tel_alu>
+    <tipo_san_alu>2</tipo_san_alu>
+    <carrera_alu>2</carrera_alu>
+    <prom_alu>3.50</prom_alu>
+    <id_alu>26</id_alu>
+    <bol_alu>2013030297</bol_alu>
+    <nom_alu>KAKAROTO</nom_alu>
+    <apa_alu>FENIX</apa_alu>
+    <ama_alu>LOPEZ</ama_alu>
+    <sex_alu>M</sex_alu>
+    <fna_alu>04/11/1996 12:00:00 a. m.</fna_alu>
+    <mail_alu>KAKAROTO@alumno.ipn.mx</mail_alu>
+    <tel_alu>5533112244</tel_alu>
+    <tipo_san_alu>1</tipo_san_alu>
+    <carrera_alu>3</carrera_alu>
+    <prom_alu>5.50</prom_alu>
+    <id_alu>23</id_alu>
+    <bol_alu>2013081313</bol_alu>
+    <nom_alu>Kevin</nom_alu>
+    <apa_alu>Ramirez</apa_alu>
+    <ama_alu>Ramirez</ama_alu>
+    <sex_alu>M</sex_alu>
+    <fna_alu>07/07/1997 12:00:00 a. m.</fna_alu>
+    <mail_alu>keb@GMAIL.COM</mail_alu>
+    <tel_alu>5512345678</tel_alu>
+    <tipo_san_alu>8</tipo_san_alu>
+    <carrera_alu>1</carrera_alu>
+    <prom_alu>6.50</prom_alu>
+    <id_alu>17</id_alu>
+    <bol_alu>2014351160</bol_alu>
+    <nom_alu>Oscar Osvaldo</nom_alu>
+    <apa_alu>Torres</apa_alu>
+    <ama_alu>Lopez</ama_alu>
+    <sex_alu>M</sex_alu>
+    <fna_alu>05/04/1987 12:00:00 a. m.</fna_alu>
+    <mail_alu>otorresl1300@alumno.ipn.mx</mail_alu>
+    <tel_alu>5525439298</tel_alu>
+    <tipo_san_alu>1</tipo_san_alu>
+    <carrera_alu>2</carrera_alu>
+    <prom_alu>9.50</prom_alu>
+    <id_alu>24</id_alu>
+    <bol_alu>2015070211</bol_alu>
+    <nom_alu>Raul</nom_alu>
+    <apa_alu>Celis</apa_alu>
+    <ama_alu>Mira</ama_alu>
+    <sex_alu>M</sex_alu>
+    <fna_alu>24/05/1999 12:00:00 a. m.</fna_alu>
+    <mail_alu>raulmira@gmail.com</mail_alu>
+    <tel_alu>5429164223</tel_alu>
+    <tipo_san_alu>1</tipo_san_alu>
+    <carrera_alu>2</carrera_alu>
+    <prom_alu>1.50</prom_alu>
+    <id_alu>28</id_alu>
+    <bol_alu>2015130450</bol_alu>
+    <nom_alu>SANTIAGO</nom_alu>
+    <apa_alu>GONZALEZ</apa_alu>
+    <ama_alu>SANITESTEBAN</ama_alu>
+    <sex_alu>M</sex_alu>
+    <fna_alu>09/07/1999 12:00:00 a. m.</fna_alu>
+    <mail_alu>GONZALEZ.S@GMAIL.COM</mail_alu>
+    <tel_alu>5548798932</tel_alu>
+    <tipo_san_alu>8</tipo_san_alu>
+    <carrera_alu>1</carrera_alu>
+    <prom_alu>2.50</prom_alu>
+    <id_alu>30</id_alu>
+    <bol_alu>2017350043</bol_alu>
+    <nom_alu>Luna</nom_alu>
+    <apa_alu>Madrid</apa_alu>
+    <ama_alu>Zarate</ama_alu>
+    <sex_alu>F</sex_alu>
+    <fna_alu>19/01/1997 12:00:00 a. m.</fna_alu>
+    <mail_alu>luna@gmail.com</mail_alu>
+    <tel_alu>5655483191</tel_alu>
+    <tipo_san_alu>3</tipo_san_alu>
+    <carrera_alu>3</carrera_alu>
+    <prom_alu>6.50</prom_alu>
+    <id_alu>20</id_alu>
+    <bol_alu>2018350262</bol_alu>
+    <nom_alu>JESSICA</nom_alu>
+    <apa_alu>GUZMAN</apa_alu>
+    <ama_alu>OLVERA</ama_alu>
+    <sex_alu>F</sex_alu>
+    <fna_alu>25/02/1995 12:00:00 a. m.</fna_alu>
+    <mail_alu>jguzman25@alumno.ipn.mx</mail_alu>
+    <tel_alu>5500550055</tel_alu>
+    <tipo_san_alu>7</tipo_san_alu>
+    <carrera_alu>3</carrera_alu>
+    <prom_alu>5.50</prom_alu>
+    <id_alu>22</id_alu>
+    <bol_alu>2018351121</bol_alu>
+    <nom_alu>YESID FERNANDO</nom_alu>
+    <apa_alu>GARCÍA</apa_alu>
+    <ama_alu>GARCÍA</ama_alu>
+    <sex_alu>M</sex_alu>
+    <fna_alu>07/06/1997 12:00:00 a. m.</fna_alu>
+    <mail_alu>Ygarciag17@alumno.ipn.mx</mail_alu>
+    <tel_alu>5528658269</tel_alu>
+    <tipo_san_alu>4</tipo_san_alu>
+    <carrera_alu>3</carrera_alu>
+    <prom_alu>8.50</prom_alu>
+    <id_alu>31</id_alu>
+    <bol_alu>2018352571</bol_alu>
+    <nom_alu>Luis</nom_alu>
+    <apa_alu>Aguilar</apa_alu>
+    <ama_alu>Ramos</ama_alu>
+    <sex_alu>H</sex_alu>
+    <fna_alu>17/02/2021 12:00:00 a. m.</fna_alu>
+    <mail_alu>prueba@prueba.com</mail_alu>
+    <tel_alu>5586115398</tel_alu>
+    <tipo_san_alu>2</tipo_san_alu>
+    <carrera_alu>1</carrera_alu>
+    <prom_alu>9.60</prom_alu>
+    <id_alu>35</id_alu>
+    <bol_alu>2018352572</bol_alu>
+    <nom_alu>Julio César</nom_alu>
+    <apa_alu>Aguilar</apa_alu>
+    <ama_alu>Ramos</ama_alu>
+    <sex_alu>H</sex_alu>
+    <fna_alu>10/05/2021 12:00:00 a. m.</fna_alu>
+    <mail_alu>prueba@prueba.com</mail_alu>
+    <tel_alu>5586115398</tel_alu>
+    <tipo_san_alu>2</tipo_san_alu>
+    <carrera_alu>1</carrera_alu>
+    <prom_alu>10.00</prom_alu>
+  </Estudiante>
+</Alumnos>
